@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: cadetblue;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.sec-position {
+  margin: 0 auto 0 auto;
+  background-color: gray;
+  max-width: 1000px;
+  min-height: 600px;
+  padding-top: 100px;
+
+}
+
+.main__wrapper {
+  display: flex;
+  gap: 30px;
+  max-width: 1000px;
+  flex-wrap: wrap; 
+  padding-left: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  max-width: 200px;
+  min-height: 450px;
+  word-wrap: break-word;
+  background-color: cornflowerblue;
+}
+
+.img__section {
+  max-height: 200px;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.btn__section {
+  display: flex;
+  gap: 85px;
+}
+
+
+.title__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.text__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.text {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+.btn-hidden {
+  visibility: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+
